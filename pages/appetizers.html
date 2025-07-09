@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipie Collection: Appetizers</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div onclick="redirect('../index.html')" class="heading">Recipie Collection</div>
+        <div class="quickbuttons">
+            <button onclick="redirect('./desserts.html')" class="headerbuttons">Desserts</button>
+            <button class="headerbuttons" style="background-color: #A0C4E2;">Appetizers</button>
+            <button onclick="redirect('./maincourse.html')" class="headerbuttons">Main Course</button>
+        </div>
+    </header>
+
+    <div class="url">
+        <h5 class="show-url">
+            <a href="../index.html" style="color: black;">Home</a> > Appetizers
+        </h5>
+    </div>
+
+
+    <div class="main-container">
+        <div class="category">
+            <div class="category-heading">Appetizers</div>
+            
+            <div class="categorised-dish">
+                <div onclick="redirect('/pages/bruschetta.html')" class="dish-card">
+                    <div class="dishimg">
+                        <img class="dishpreview" src="../images/Bruschetta.jpg" alt="Bruschetta">
+                    </div>
+                    <div class="dishname">
+                        <h4>Bruschetta</h4>
+                    </div>
+                    <div class="dishdetails">
+                        <p>Bruschetta is a classic Italian appetizer with grilled bread topped with tomatoes, garlic, basil, and olive oil.</p>
+                    </div>
+                </div>
+
+                <div onclick="redirect('/pages/bruschetta.html')" class="dish-card">
+                    <div class="dishimg">
+                        <img class="dishpreview" src="../images/Bruschetta.jpg" alt="Bruschetta">
+                    </div>
+                    <div class="dishname">
+                        <h4>Bruschetta</h4>
+                    </div>
+                    <div class="dishdetails">
+                        <p>Bruschetta is a classic Italian appetizer with grilled bread topped with tomatoes, garlic, basil, and olive oil.</p>
+                    </div>
+                </div>
+
+                <div onclick="redirect('/pages/bruschetta.html')" class="dish-card">
+                    <div class="dishimg">
+                        <img class="dishpreview" src="../images/Bruschetta.jpg" alt="Bruschetta">
+                    </div>
+                    <div class="dishname">
+                        <h4>Bruschetta</h4>
+                    </div>
+                    <div class="dishdetails">
+                        <p>Bruschetta is a classic Italian appetizer with grilled bread topped with tomatoes, garlic, basil, and olive oil.</p>
+                    </div>
+                </div>
+
+                <div onclick="redirect('/pages/bruschetta.html')" class="dish-card">
+                    <div class="dishimg">
+                        <img class="dishpreview" src="../images/Bruschetta.jpg" alt="Bruschetta">
+                    </div>
+                    <div class="dishname">
+                        <h4>Bruschetta</h4>
+                    </div>
+                    <div class="dishdetails">
+                        <p>Bruschetta is a classic Italian appetizer with grilled bread topped with tomatoes, garlic, basil, and olive oil.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+    <div class="myinfo">
+        <p>Made with 💖 by
+            <a href="https://www.github.com/prathamtagad" target="_blank">Pratham Tagad</a>
+        </p>
+    </div>
+
+    <script>
+        function redirect(url){
+            window.location.href = url;
+            console.log(url)
+        }
+    </script>
+</body>
+</html>

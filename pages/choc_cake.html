@@ -8,13 +8,19 @@
 </head>
 <body>
     <header>
-        <div class="heading">Recipie Collection</div>
+        <div onclick="redirect('../index.html')" class="heading">Recipie Collection</div>
         <div class="quickbuttons">
-            <button class="headerbuttons" style="background-color: #A0C4E2;">Desserts</button>
-            <button class="headerbuttons">Appetizers</button>
-            <button class="headerbuttons">Main Course</button>
+            <button onclick="redirect('./desserts.html')" class="headerbuttons" style="background-color: #A0C4E2;">Desserts</button>
+            <button onclick="redirect('./appetizers.html')" class="headerbuttons">Appetizers</button>
+            <button onclick="redirect('./maincourse.html')" class="headerbuttons">Main Course</button>
         </div>
     </header>
+
+    <div class="url">
+        <h5 class="show-url">
+            <a href="../index.html" style="color: black;">Home</a> > <a href="./desserts.html" style="color: black;">Desserts</a> > Chocolate Cake
+        </h5>
+    </div>
     
     <div class="main-container">
         <div class="img-and-name">
@@ -80,5 +86,12 @@
             <a href="https://www.github.com/prathamtagad" target="_blank">Pratham Tagad</a>
         </p>
     </div>
+
+    <script>
+        function redirect(url){
+            window.location.href = url;
+            console.log(url)
+        }
+    </script>
 </body>
 </html>
