@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://your-live-site-link.com"><img src="https://img.shields.io/badge/Live%20Site-Netlify-green?style=for-the-badge&logo=netlify" alt="Live Demo Badge" /></a>
+  <a href="https://static-recipe-collection.netlify.app/"><img src="https://img.shields.io/badge/Live%20Site-Netlify-green?style=for-the-badge&logo=netlify" alt="Live Demo Badge" /></a>
   <a href="https://github.com/prathamtagad/Static-Recipe-Collection/stargazers"><img src="https://img.shields.io/github/stars/prathamtagad/Static-Recipe-Collection?style=for-the-badge" /></a>
   <a href="https://github.com/prathamtagad/Static-Recipe-Collection/network"><img src="https://img.shields.io/github/forks/prathamtagad/Static-Recipe-Collection?style=for-the-badge" /></a>
   <a href="./LICENSE"><img src="https://img.shields.io/github/license/prathamtagad/Static-Recipe-Collection?style=for-the-badge" /></a>
