@@ -1,20 +1,22 @@
 body{
-    background-color: green;
+    background-color: #CFE8EF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 1rem;
     margin-top: 20px;
     padding: 15px;
-    background-color: rgba(255, 255, 255, 1);
-    backdrop-filter: blur(15px);
+    background-color: #C6DBF0;
     border-radius: 15px;
 }
 
 .heading{
     font-size: 1.3rem;
+    cursor: pointer;
 }
 
 .quickbuttons{
@@ -34,20 +36,20 @@ header{
 }
 
 .headerbuttons:hover{
-    background-color: white;
+    background-color: #A0C4E2;
     padding: 10px;
 }
 
 .main-container{
-    background-color: white;
+    background-color: #AED1E6;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 15px;
     margin-top: 20px;
 }
 
 .myinfo{
     display: flex;
-    background-color: white;
+    background-color: #C6DBF0;
     justify-content: center;
     width: 100%;
     align-items: end;
@@ -58,19 +60,26 @@ header{
 
 .category-heading{
     padding: 15px;
-    background-color: wheat;
+    background-color: #A0C4E2;
     border-radius: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
     font-size: 1.2rem;
 }
 
+.categorised-dish{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 .dish-card{
     max-width: 15%;
     display: flex;
     flex-direction: column;
-    background-color: rgb(145, 145, 234);
+    background-color: #85C7DE;
     padding: 15px;
+    cursor: pointer;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
@@ -79,12 +88,13 @@ header{
 
 @media (max-width: 768px){
     .dish-card{
-        max-width: 45%;
+        max-width: 50%;
     }
 }
 
 .dish-card:hover{
-    transform: scale(1.05);
+    transform: scale(1.01);
+    box-shadow: 2px 2px 20px #94bfe1;
 }
 
 .dishpreview{
@@ -93,10 +103,94 @@ header{
 }
 
 .dishname{
-    color: white;
+    color: black;
+    font: bold;
     font-size: 1.2rem;
 }
 
 .dishdetails{
     text-align: center;
+}
+
+.img-and-name{
+    background-color: #C6DBF0;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.page-dishpreviewbox{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-dishpreview{
+    border-radius: 20px;
+    max-width: 90%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px 10px #94bfe1;
+    /* border-radius: 15px; */
+}
+
+.page-dishname{
+    margin: 15px;
+    font-size: 1.3rem;
+    background-color: #85C7DE;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.dish-info-headings{
+    font: bold;
+    text-decoration: underline;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    background-color: #85C7DE;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.page-dish-details{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    background-color: #C6DBF0;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.page-dish-ingredients{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    background-color: #C6DBF0;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.dish-ingredients{
+    text-align: left;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+.page-dish-instructions{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    background-color: #C6DBF0;
+    padding: 10px;
+    border-radius: 15px;   
+}
+
+.dish-instructions{
+    text-align: left;
 }
