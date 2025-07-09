@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./cake-preview.jpeg" alt="Chocolate Cake Recipe Preview" />
-</p>
-
 <h1 align="center">🍽️ Static Recipe Collection Website</h1>
 
 <p align="center">
@@ -21,9 +17,15 @@
 
 > 🔗 [Check out the live site here!](https://your-live-site-link.com)
 
-<img src="./home-preview.jpeg" alt="Home Page Screenshot" style="border-radius: 8px;" />
-
 ---
+
+## 📷 Screenshots 
+
+<p align="center">
+  <img src="./cake-preview.jpeg" alt="Chocolate Cake Recipe Preview" />
+  <br></br>
+  <img src="./home-preview.jpeg" alt="Home Page Screenshot" style="border-radius: 8px;" />
+</p>
 
 ## 🚀 Features
 
@@ -48,3 +50,23 @@
 
 ## 📁 Folder Structure
 
+Static-Recipe-Collection/
+│
+├── images/ # Contains all food images
+├── pages/ # Individual recipe pages (e.g., chocolate cake)
+├── css/
+│ └── style.css # Main stylesheet
+├── index.html # Homepage
+└── README.md
+
+
+---
+
+## 📥 How to Use
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/prathamtagad/Static-Recipe-Collection.git
+cd Static-Recipe-Collection
+```
