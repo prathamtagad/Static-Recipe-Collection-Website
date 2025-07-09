@@ -1,19 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Collection</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <header>
         <div class="heading">Recipie Collection</div>
         <div class="quickbuttons">
-            <button>Home</button>
-            <button>Category</button>
-            <button>About</button>
+            <button class="headerbuttons">Home</button>
+            <button class="headerbuttons">Category</button>
+            <button class="headerbuttons">About</button>
         </div>
     </header>
+    <div class="main-container">
+
+        <div class="category">
+            <div class="category-heading">Desserts</div>
+            <div onclick="redirect('/pages/choc_cake.html')" class="dish-card">
+                <div class="dishimg">
+                    <img class="dishpreview" src="./images/choc cake.jpg" alt="Choc Cake">
+                </div>
+                <div class="dishname">
+                    <h4>Choc Cake</h4>
+                </div>
+                <div class="dishdetails">
+                    <p>A rich, moist dessert made with cocoa or melted chocolate, often layered and topped with creamy frosting.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-heading">Appetizers</div>
+            <div onclick="redirect('/pages/bruschetta.html')" class="dish-card">
+                <div class="dishimg">
+                    <img class="dishpreview" src="./images/Bruschetta.jpg" alt="Bruschetta">
+                </div>
+                <div class="dishname">
+                    <h4>Bruschetta</h4>
+                </div>
+                <div class="dishdetails">
+                    <p>Bruschetta is a classic Italian appetizer with grilled bread topped with tomatoes, garlic, basil, and olive oil.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <div class="category-heading">Main Courses</div>
+            <div onclick="redirect('/pages/lasgana.html')" class="dish-card">
+                <div class="dishimg">
+                    <img class="dishpreview" src="./images/Lasagna.jpg" alt="Lasagna">
+                </div>
+                <div class="dishname">
+                    <h4>Lasagna</h4>
+                </div>
+                <div class="dishdetails">
+                    <p>Lasagna is a baked Italian dish made with pasta layers, meat or vegetables, rich tomato sauce, and creamy cheese.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="myinfo">
+        <p>Made with 💖 by
+            <a href="https://www.github.com/prathamtagad" target="_blank">Pratham Tagad</a>
+        </p>
+    </div>
+    
+    <script>
+        function redirect(url){
+            window.location.href = url;
+            console.log(url)
+        }
+    </script>
 </body>
 </html>

@@ -1,11 +1,102 @@
+body{
+    background-color: green;
+}
+
 header{
-    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
     padding: 15px;
-    background-color: black;
-    color: white;
+    background-color: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(15px);
     border-radius: 15px;
 }
 
 .heading{
+    font-size: 1.3rem;
+}
+
+.quickbuttons{
     display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+}
+
+.headerbuttons{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.4s ease;
+}
+
+.headerbuttons:hover{
+    background-color: white;
+    padding: 10px;
+}
+
+.main-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.myinfo{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    width: 100%;
+    align-items: end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.category-heading{
+    padding: 15px;
+    background-color: wheat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.dish-card{
+    max-width: 15%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(145, 145, 234);
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease;
+}
+
+@media (max-width: 768px){
+    .dish-card{
+        max-width: 45%;
+    }
+}
+
+.dish-card:hover{
+    transform: scale(1.05);
+}
+
+.dishpreview{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.dishname{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.dishdetails{
+    text-align: center;
 }
